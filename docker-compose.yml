@@ -1,0 +1,5 @@
+nssdb:
+    build: .
+    command: /bin/bash
+    volumes:
+        - nssdb_master:/nssdb
